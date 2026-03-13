@@ -8,7 +8,7 @@ import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.example.listaajedrez.databinding.ActivityMainBinding // ¡Esta es la línea que causaba el error!
+import com.example.listaajedrez.databinding.ActivityMainBinding
 
 data class Task(val name: String)
 
